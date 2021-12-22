@@ -11,7 +11,7 @@ import (
 
 func main() {
 	a()
-	data := events.Aexport("Sent")
+	data := events.Aexport("Sent1")
 
 	fmt.Println(data)
 	fmt.Println(timedata.GetTime())
