@@ -32,6 +32,6 @@ func Ping(client *mongo.Client, ctx context.Context) error {
 	if err := client.Ping(ctx, readpref.Primary()); err != nil {
 		return err
 	}
-	fmt.Println("Ping ! Pong dong")
+	fmt.Println("Ping ! Pong dong tring")
 	return nil
 }
